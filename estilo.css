@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(94, 170, 180);
+}
+
+.fondoturquesa{
+    background-color: rgb(27, 194, 194);
+}
+
+h2{ background-color: aqua;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+#tituloprincipal{
+    background-color: #990999;
+    width: 400px;
+    height: 50px;
+    display: inline-block;
+}
+button{
+    display: block;
+    background-color: burlywood;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#google{
+    width: 300px;
+}
+
+.texto2{
+    width: 25%;
+    height: 40vh;
+}
+
+#textounico{
+    background-image: url(imagenes\1366_2000.jpg);
+}
+ul{
+    background-color: blueviolet;
+    width: 50%;
+}
+
+li{
+    background-color:chocolate ;
+}
