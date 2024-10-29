@@ -1,45 +1,108 @@
-body{
-    background-color: rgb(94, 170, 180);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.fondoturquesa{
-    background-color: rgb(27, 194, 194);
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  background-image: url('imagenes\coleccion-notas-musicales_53876-8146.jpg');
+ background-size: cover; 
+ background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center; 
+    
+color: #333;
 }
 
-h2{ background-color: aqua;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
-#tituloprincipal{
-    background-color: #990999;
-    width: 400px;
-    height: 50px;
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+}
+
+.navbar a:hover {
+    background-color: #444;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #333;
+}
+
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.producto {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.producto h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.producto p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.producto img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.producto a {
     display: inline-block;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
 }
-button{
-    display: block;
-    background-color: burlywood;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.producto a:hover {
+    color: #0056b3;
 }
 
 
 
-#google{
-    width: 300px;
-}
 
-.texto2{
-    width: 25%;
-    height: 40vh;
-}
 
-#textounico{
-    background-image: url(imagenes\1366_2000.jpg);
-}
-ul{
-    background-color: blueviolet;
-    width: 50%;
-}
 
-li{
-    background-color:chocolate ;
-}
+
+
+
